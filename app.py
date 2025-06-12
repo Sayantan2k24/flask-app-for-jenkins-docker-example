@@ -13,7 +13,7 @@ def health():
 
 @app.route("/")
 def home():
-    return "<b> Welcome to my project!! </b> <br/><br/> This is v1.0 hello changed"
+    return "<b> Welcome to my project!! </b> <br/><br/> This is v1.0 this part changed for new image"
    
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int("5000"), debug=True)
